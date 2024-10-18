@@ -18,7 +18,7 @@ const RTC: React.FC<RTCProps> = ({ handleVisionResult }) => {
     // Access the webcam
     const getMedia = async () => {
       try {
-        const stream = await navigator.mediaDevices.getUserMedia({ video: {facingMode: "environment"} });
+        const stream = await navigator.mediaDevices.getUserMedia({ video: true });
         if (videoRef.current) {
           videoRef.current.srcObject = stream;
         }
