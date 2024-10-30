@@ -57,7 +57,7 @@ const RTC: React.FC<RTCProps> = ({ handleVisionResult }) => {
     const image = captureImage();
     if (image) {
       try {
-        const response = await axios.post('http://localhost:5000/api/detectObjects', {
+        const response = await axios.post('http://192.168.1.196:5001/api/detectObjects', {
           image,
         });
         const objects = response.data;  // Store detected objects
