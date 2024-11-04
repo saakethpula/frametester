@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frametester/static/css/main.25173178.css",
+    "main.js": "/frametester/static/js/main.308ae849.js",
+    "static/js/453.bad6c33a.chunk.js": "/frametester/static/js/453.bad6c33a.chunk.js",
+    "index.html": "/frametester/index.html",
+    "main.25173178.css.map": "/frametester/static/css/main.25173178.css.map",
+    "main.308ae849.js.map": "/frametester/static/js/main.308ae849.js.map",
+    "453.bad6c33a.chunk.js.map": "/frametester/static/js/453.bad6c33a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25173178.css",
+    "static/js/main.308ae849.js"
+  ]
+}
